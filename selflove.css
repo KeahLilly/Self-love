@@ -1,0 +1,252 @@
+
+body {
+  padding: 0 0 0 0;
+  margin: 0;
+  background-color: white;
+  font-size: 14px;
+  font-family: cursive;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+/*------------------mobile----------------*/
+/*@media only screen and (max-width: 600px;) {
+*/
+.container {
+  background-color: grey;
+}
+
+.navcontainer {
+  background-color: #3E3E3E
+  height: 40px;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.mainnav {
+  width: 100%;
+  float: left;
+  width: 20%;
+  margin-left: 79%;
+  margin-right: 1%;
+  font-size: 1.5em;
+}
+
+.mainnav ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnav li {
+  list-style: none;
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+.mainnav a:hover {
+  background: black;
+}
+
+.hero {
+  height: 600px;
+  background: #B0B0B0;
+  background-image: url("flowers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herotext {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 10em;
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.herotext1 {
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.maincontent {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  clear: both;
+}
+
+.maincontent h1 {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.maincontent h2 {}
+.maincontent p {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.maincontent a {}
+.maincontent a:hover {}
+.maincontent a:visited {}
+
+.contentrow {
+  clear: both;
+}
+
+.blockrow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.contentrowtitle {
+  font-size: 3em;
+  clear: right;
+}
+
+.contentblock {
+  width: 80%;
+  float: left;
+  margin-right: 1%;
+  height: 200px;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  clear: both;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.contentblock {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 300px;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contentblocktext {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
+
+#contentbox1:hover .overlay {
+  opacity: 1;
+}
+
+#contentbox2:hover .overlay {
+  opacity: 1;
+}
+
+#contentbox3:hover .overlay {
+  opacity: 1;
+}
+
+#contentbox4:hover .overlay {
+  opacity: 1;
+}
+
+#contentbox5:hover .overlay {
+  opacity: 1;
+}
+
+#contentbox6:hover .overlay {
+  opacity: 1;
+}
+
+
+#contentbox1 {
+  background-image: url("Helena.jpg");
+}
+
+#contentbox2 {
+  background-image: url("daniela.jpg");
+}
+
+#contentbox3 {
+  background-image: url("Ezzy.jpg");
+}
+
+#contentbox4 {
+  background-image: url("Irina.jpg");
+}
+
+  #contentbox5 {
+    background-image: url("Tiffany.jpg");
+  }
+
+  #contentbox6 {
+    background-image: url("april.jpg");
+  }
+
+  .footer {
+    clear: both;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+
+.fa {
+  padding:20px;
+  font-size: 20px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+
+/*}*/
